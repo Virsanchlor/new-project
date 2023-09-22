@@ -1,0 +1,393 @@
+*,::after,::before{
+    margin: 0px;
+    padding: 0px;
+}
+.thiscontainer{
+    margin: 5px 10px;
+    padding: 10px;
+}
+.thisheader{
+    display: flex;
+    margin-bottom: 10px;
+}
+.mylogo{
+    margin-right: 40px;
+}
+.mylogo img{
+    height: 100px;
+    width: 100px;
+    float: left;   
+}
+.mylogo p{
+    padding-left: 15px;
+}
+.mynavlinks{
+    margin-left: 230px;
+}
+.mycontainer {
+    margin-top: 15px;
+    /* width: 1000px;
+    margin: 0 auto; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+.myheader{
+    background-image: url("./House-images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.catalog{
+    margin: 5px 0px;
+}
+.myheader li a{
+    color: #fff;
+}
+.myheader li a:hover{
+    color: #aaa;
+    background-color: #C63D2F;
+}
+
+.saleheader, .rentHeader{
+    margin: 30px 0px;
+}
+button:focus {
+    outline: none;
+}
+.catalog, .rent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    width: 100%;
+}
+.thiscarousel, .theinnercontent{
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+.secondcarousel{
+    background-image: url('./House-images/john-fornander-tVzyDSV84w8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.thiscarousel{
+    background-image: url('./House-images/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.thirdcarousel{
+    background-image: url('./House-images/webaliser-_TPTXZd9mOo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.deck {
+    margin: 15px 15px 15px 0px;
+    width: 270px;
+    height: 320px;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    font-family: verdana;
+    border-radius: 10px;
+    grid-row: span 2;
+}
+.card {
+    width: 100%;
+    height: 250px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.back {
+    overflow: hidden;
+    z-index: -1;
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+}
+.back:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.front, .back {
+    transition: all 0.5s linear;
+}
+.front {
+    z-index: 1;
+    padding-top: 15px;
+    box-shadow: 5px 5px 5px #aaa;
+    background: rgb(234,219,200);
+background: linear-gradient(90deg, rgba(234,219,200,1) 0%, rgba(248,240,229,1) 100%);
+}
+.back {
+    box-shadow: 0 0 0 #aaa;
+}
+.flipped {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.flipped .front{
+    box-shadow: 0 0 0 #aaa;
+}
+.flipped .back {
+    box-shadow: 5px 5px 5px #aaa;
+}
+.bottext {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    /* text-align: center; */
+    padding: 40px 10px;
+}
+.bottext h2 {
+    margin: 0;
+}
+
+.front h6{
+    align-content: center;
+    margin: 10px 10px 20px 10px;
+}
+.front li{
+    margin: 7px 10px;
+}
+.back h2 {
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+.back .botprice {
+    position: absolute;
+    bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    color: whitesmoke;
+}
+.back .botprice h3 {
+    margin: 0px;
+}
+.return {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    padding: 5px;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #dcdcdc;
+    font-size: 18px;
+}
+.return:focus {
+    outline: none;
+}
+.first{
+    background-image: url("./House-images/ferdinand-asakome-iaazZ7g07VQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second{
+    background-image: url("./House-images/florian-schmidinger-b_79nOqf95I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    background-image: url("./House-images/fomstock-4ojhpgKpS68-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth{
+    background-image: url("./House-images/frames-for-your-heart-2d4lAQAlbDA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fifth{
+    background-image: url("./House-images/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixth{
+    background-image: url("./House-images/john-fornander-tVzyDSV84w8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seventh{
+    background-image: url("./House-images/sieuwert-otterloo-aren8nutd1Q-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eight{
+    background-image: url("./House-images/zac-gudakov-xRihZSjAW2k-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mynavicons{
+    display: none;
+}
+#about{
+    margin: 0px 15px;
+}
+.myfooter {
+    margin: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+form input, form textarea, .footerNav{
+    display: block;
+    margin-top: 10px;
+}
+#name{
+    width: 40%;
+}
+#comment{
+    width: 50%;
+    height: 150px;
+}
+.thismycontact{
+    display: flex;
+    justify-content: space-between;
+     margin: 0px 10px;
+}
+.contactME{
+    display: flex;
+}
+.contactME a{
+    margin: 5px;
+}
+.contactME i{
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .mynavlinks{
+        margin-left: 30px;
+    }
+    .catalog, .rent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .deck{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .catalog, .rent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .mynavicons{
+        display: block;
+        margin-left: 10px;
+    }
+    .mynavlinks{
+        display: none;
+    }
+    .mynavicons ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mynavicons li{
+        list-style: none;
+        margin: 20px 10px;
+    }
+    .mynavicons i{
+        font-size: 30px;
+    }
+    .deck{
+        width: 380px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .mynavicons{
+        display: block;
+    }
+    .deck{
+        width: 330px;
+    }
+    .thisheader{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mylogo{
+        margin-right: 0px;
+    }
+    .mynavicons{
+        display: block;
+        margin-left: 0px;
+    }
+    .mynavicons i{
+        font-size: 24px;
+    }
+    .myfooter{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .mylogo{
+        height: 120px;
+        display: block;
+        position: relative;
+    }
+    .mylogo p{
+        position: absolute;
+        top: 95px
+        ;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .mynavicons i{
+        font-size: 20px;
+    }
+    .mylogo img{
+        height: 70px;
+        width: 80px;
+    }
+    .mylogo{
+        height: 120px;
+        display: block;
+        position: relative;
+    }
+    .mylogo p{
+        position: absolute;
+        top: 70p;
+    }
+    .deck{
+        width: 275px;
+    }
+}

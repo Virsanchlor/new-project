@@ -1,0 +1,286 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffdd00f2;
+    position: fixed;
+    width: 100%;
+}
+.navbarlogo{
+    padding: 10px;
+    background-color: #D2001A;
+    color: #EFEFEF;
+    margin: 0px 25px;
+    font-family: 'Vina Sans', cursive;
+}
+.navbaricons{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.navbarlist a{
+    text-decoration: none;
+    color: #D2001A;
+}
+.navbarlist li a:hover{
+    background-color: #FFFAE7;
+    padding: 15px;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    color: #EFEFEF;
+    background: #FFFAE7;
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+}
+.myintro{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+.introduction{
+   margin-top: 70px;
+   margin-left: 25px;
+   height: fit-content;
+   width: fit-content;
+   border-radius: 25%;
+   padding: 30px 40px 30px 10px;
+   background-color: #D2001A;
+   box-sizing: border-box;
+   box-shadow: 4px 5px 7px  #ffdd00f2;
+}
+.mine{
+    width: 50%
+}
+.myimage{
+    object-fit: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.myimage img{
+    height: auto;
+    width: 80%;
+}
+.introduction > h4{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+hr{
+    margin: 0%;
+}
+#about{
+    margin: 0px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFAE7;
+    margin-top: 0px;
+}
+.workdiv{
+    width: 23%;
+    margin: 0px 20px;
+}
+.work{
+    padding: 40px;
+    background-color: #EFEFEF;
+    border-radius: 0% 40% 0% 40%;
+}
+.developer{
+    width: 23%;
+    margin: 0px 20px;
+}
+.webdev{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.webdev img{
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 20px;
+}
+.profession{
+    width: 23%;
+    margin: 0px 20px;
+}
+.pharmacology{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.pharmacology img{
+    border-radius: 50%;
+    height: 100px;
+}
+.expertise{
+    width: 23%;
+    margin: 0px 20px;
+}
+.salesManager{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.salesManager img{
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 0px;
+}
+.profile h3{
+    margin: 15px 0px;
+}
+.hobbies{
+    background-color: #FFFAE7;
+    padding-bottom: 30px;
+}
+.hobbiesdiv{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.hobbies-text{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 40% 30% 60% 40%;
+    background-color: #D2001A;
+    width: 20%;
+    color: #EFEFEF;
+}
+.hobbies-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px 0px 20px;
+}
+.hobbies-icon > div > i{
+    font-size: 30px;
+    color: #D2001A;
+}
+#resume{
+    background-color: #FFFAE7;
+    margin-bottom: 0px;
+}
+.resumeimage{
+    background-color: #FFFAE7;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#resume img{
+    height: 400px;
+    width: 90%;
+}
+.resumetext{
+    margin: 10px 20px 0px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 5px 4px 6px  #D2001A;
+}
+.resumelinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 20px;
+}
+#contact-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFAE7;
+}
+.contact{
+    border-right: 1px solid;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.mycontact i{
+    font-size: 40px;
+    margin-right: 6px;
+}
+.mycontact i:hover{
+    color:  #D2001A;
+}
+.mycontact i:active{
+    color: #ffdd00f2;
+}
+@media screen and (max-width: 768px){
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 500px;
+    }
+    .workdiv{
+        width: 200px;
+    }
+    .developer{
+        width: 300px;
+    }
+    .profession{
+        width: 300px;
+    }
+    .expertise{
+        width: 300px;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .myintro{
+        width: 100%;
+    }
+    .mine{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+   .profile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    gap: 30px;
+   }
+   .workdiv, .developer, .expertise, .profession{
+    width: 90%;
+   }
+   .navbarlogo{
+    margin: 0px 5px 0px 20px;
+   }
+   .navbarlist{
+    display: none;
+   }
+   .navbaricons{
+    display: block;
+   }
+   .navbaricons a{
+    color: #D2001A;
+    font-size: 20px;
+   }
+   .navbaricons a:hover{
+    color: #EFEFEF;
+   }
+   #resume img{
+    width: 70%;
+    height: 300px;
+   }
+   .hobbies-icon div{
+    margin-left: 10px;
+   }
+   .hobbies-text{
+    padding: 50px;
+   }
+}
+    

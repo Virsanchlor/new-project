@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="housing.css" rel="stylesheet">
+</head>
+<body>
+  <div class="thiscontainer">
+    <div class="myheader" id="home">
+      <div class="thisheader">
+        <div class="mylogo">
+          <img src="./House-images/pngaaa.com-60617.png" alt="our logo">
+          <p>MyHouse.ng</p>
+        </div>
+        <div class="mynavlinks">
+          <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="#catalog" class="nav-link">Catalogs & Pricing</a></li>
+              <!-- <li class="nav-item"><a href="#" class="nav-link">FAQS</a></li> -->
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            </ul>
+          </header>
+        </div>
+        <div class="mynavicons">
+          <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#catalog"><i class="fa-solid fa-image"></i></a></li>
+            <li><a href="#catalog"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-address-card"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="px-4 py-5 my-2 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis myh1" style="color: #fff; font-size: 50px;">Where I'm Moving Next</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">We help you Build, Buy, Sell, Let/Lease and find houses of your dreams at the cheapest offers you can think off. </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-danger btn-lg px-4 gap-3">I'm Building</button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">I'm Selling</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="catalog" class="carousel slide mb-6 thiscarousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner theinnercontent">
+        <div class="carousel-item thiscarousel">
+          <svg class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="0px" fill="var(--bs-secondary-color)"></rect></svg>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <!-- <img src="./House-images/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active secondcarousel">
+          <svg class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="0px" fill="var(--bs-secondary-color)"></rect></svg>
+          <div class="">
+            <div class="carousel-caption">
+              <img src="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item thirdcarousel">
+          <svg class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="0px" fill="var(--bs-secondary-color)"></rect></svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+                <!-- <img src="./House-images/john-fornander-tVzyDSV84w8-unsplash.jpg"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
+    <div class="mycontainer" id="mycatalog">
+      <div class="saleheader">
+        <h2>Houses for Sale:</h2>
+      </div>
+      <div class="catalog">
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Semi-Detached house</h6>
+              <ul>
+                <li>Five Rooms</li>
+                <li>Swimming Pool</li>
+                <li>Gym Room</li>
+              </ul>
+              <div class="bottext">
+                <h3>$50,000</h3>
+              </div>
+            </div>
+            <div class="back face first">
+              <img src="" alt="">
+              <div class="botprice">
+              <h3>$50,000</h3>
+            </div>
+          </div>
+          </div>  
+          <div>
+            <h5>Semi Detached</h5>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Bungalow</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Swimming Pool</li>
+                <li>Gym Room</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$30,000</h3>
+              </div>
+            </div>
+            <div class="back face second">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$30,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>Bungalow Glass house.</h5>
+            <p></p>
+          </div>
+
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Duplex</h6>
+              <ul>
+                <li>Five Rooms</li>
+                <li>Garden</li>
+                <li>Gym Room</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$40,000</h3>
+              </div>
+            </div>
+            <div class="back face third">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$40,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A Terraced White Duplex.</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Bungalow</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Library</li>
+                <li>Swimming Pool</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$20,000</h3>
+              </div>
+            </div>
+            <div class="back face fourth">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$20,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>Bungalow with front-side Glass.</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Villa</h6>
+              <ul>
+                <li>Six Rooms</li>
+                <li>Gym Room</li>
+                <li>Swimming Pool</li>
+              </ul>
+              <div class="bottext">
+                <h3>$70,000</h3>
+              </div>
+            </div>
+            <div class="back face fifth">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$70,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A beautiful Contemporary Villa.</h5>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>A Duplex Villa </h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Garden</li>
+                <li>Gym Room</li>
+                <li>Swimming Pool</li>
+              </ul>
+              <div class="bottext">
+                <h3>$65,000</h3>
+              </div>
+            </div>
+            <div class="back face sixth">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$65,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A White Contemporary Villa.</h5>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Tudor House</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Library</li>
+                <li>Garden</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$45,000</h3>
+              </div>
+            </div>
+            <div class="back face seventh">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$45,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A Blue Tudor House</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>A Modern Farmhouse</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Library</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$30,000</h3>
+              </div>
+            </div>
+            <div class="back face eight">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$30,000</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A Red Modern Farmhouse</h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="housesForRent">
+      <div class="rentHeader">
+        <h2>Houses To Let</h2>
+      </div>
+      <div class="rent" id="forRent">
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Villa</h6>
+              <ul>
+                <li>Six Rooms</li>
+                <li>Gym Room</li>
+                <li>Swimming Pool</li>
+              </ul>
+              <div class="bottext">
+                <h3>$35,000/year</h3>
+              </div>
+            </div>
+            <div class="back face fifth">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$35,000/year</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A beautiful Contemporary Villa.</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>A Modern Farmhouse</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Library</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$10,000/year</h3>
+              </div>
+            </div>
+            <div class="back face eight">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$10,000/year</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A Red Modern Farmhouse</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="deck">
+          <div class="card clickcard">
+            <div class="front face">
+              <h6>Tudor House</h6>
+              <ul>
+                <li>four Rooms</li>
+                <li>Library</li>
+                <li>Garden</li>
+                <li>Garage</li>
+              </ul>
+              <div class="bottext">
+                <h3>$15,000/year</h3>
+              </div>
+            </div>
+            <div class="back face seventh">
+              <img src="" alt="">
+              <div class="botprice">
+                <h3>$15,000/year</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5>A Blue Tudor House</h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <hr>
+    <div class="my-5" id="about">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" id="About">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Here at "Where I'm moving Next"</h1>
+        <p class="lead">Beyond buying and selling we offer the best consultancy opportunities for our clients, we provide the best architectural marvel, and also property evaluation </p>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./House-images/amanda-marie-LCJ9iOli-uE-unsplash (1).jpg" alt="" width="720">
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
+    <div class="myfooter">  
+      <div class="col mb-3">
+        <form>
+          <input type="text" id="name" for="name" placeholder="Your name" class="form-control">
+          <textarea placeholder="Write in your Comment" id="comment" name="comment" class="form-control"></textarea>
+          <input type="button" value="Comment" id="submit" class="btn btn-primary">
+        </form>
+      </div>
+      <div class="col mb-3 footerNav">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#catalog" class="nav-link p-0 text-body-secondary">Catalogs & Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">About</a></li>
+          <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li> -->
+          <li class="nav-item mb-2"><a href="Contact Us" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="thismylogo">
+        <div class="mylogo">
+          <img src="./House-images/pngaaa.com-60617.png" alt="our logo">
+          <p>MyHouse.ng</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <hr>
+  <div class="thismycontact">
+    <div class="contactME" id="contact">
+      <h5>Reach Us Via:</h5>
+      <a href="mailto:oluwasijibomidada2@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+      <a href="http://m.me/Dada Ouwasijibomi Joseph?text=Hello%20and%20Welcome"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://twitter.com/messages/compose?recipient_id=&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="@DadaSijibomi" data-show-count="false"><i class="fa-brands fa-square-x-twitter"></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="copyright">
+      <h2>©Veecode 2023</h2>
+    </div>
+  </div>
+  </div>
+ 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="housing.js"></script>
+</body>
+</html>
